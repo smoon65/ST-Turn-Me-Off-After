@@ -175,34 +175,6 @@ def setSchedule() {
     log("End setSchedule().", "DEBUG")
 }
 
-def getColorMap(val) {
-	
-    def colorMap = [:]
-    
-	switch(val.toLowerCase()) {
-    	case "blue":
-        	colorMap['hue'] = "240"
-            colorMap['saturation'] = "100"
-            colorMap['level'] = "50"
-            break
-        case "red":
-        	colorMap['hue'] = "0"
-            colorMap['saturation'] = "100"
-            colorMap['level'] = "50"
-            break
-        case "yellow":
-            colorMap['hue'] = "60"
-            colorMap['saturation'] = "100"
-            colorMap['level'] = "50"
-        default:
-            colorMap['hue'] = "60"
-            colorMap['saturation'] = "100"
-            colorMap['level'] = "50"	
-    }
-    
-	return colorMap
-}
-
 def determineDuration() {
 	switch (unit.toUpperCase()) {
     	case "SECONDS":
