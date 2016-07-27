@@ -1,7 +1,7 @@
 /**
  *  Turn Me Off After
  *
- *  1.0.0 - 07/11/16
+ *  1.0.0 - 07/27/16
  *   -- Initial Release
  *
  *  Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except
@@ -14,7 +14,7 @@
  *  for the specific language governing permissions and limitations under the License.
  *
  *
- *  You can find this smart app @ https://github.com/ericvitale/ST-Trigger-My-Lights
+ *  You can find this smart app @ https://github.com/ericvitale/ST-Turn-Me-Off-After
  *  You can find my other device handlers & SmartApps @ https://github.com/ericvitale
  *
  */
@@ -23,7 +23,7 @@ definition(
 	name: "Turn Me Off After",
 	namespace: "ericvitale",
 	author: "ericvitale@gmail.com",
-	description: "Set on/off, level, color, and color temperature of a set of lights based on motion, acceleration, and a contact sensor.",
+	description: "Turns a switch off after a certain amount of time.",
 	category: "My Apps",
 	iconUrl: "https://s3.amazonaws.com/smartapp-icons/Convenience/Cat-Convenience.png",
 	iconX2Url: "https://s3.amazonaws.com/smartapp-icons/Convenience/Cat-Convenience%402x.png"
